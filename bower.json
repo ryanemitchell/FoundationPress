@@ -34,11 +34,5 @@
   "private": true,
   "dependencies": {
     "hover": "^2.1.1",
-<<<<<<< HEAD
-    "font-awesome": "^4.7.0",
-    "featherlight": "^1.7.6"
-=======
     "font-awesome": "^4.7.0"
->>>>>>> bower json
   }
-}
