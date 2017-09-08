@@ -13,7 +13,6 @@
 		</section>
 		<div class="footer-container" data-sticky-footer>
 			<footer class="footer">
-				Welcome to the footer! The Footer is the best
 				<?php do_action( 'foundationpress_before_footer' ); ?>
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
 				<?php do_action( 'foundationpress_after_footer' ); ?>
