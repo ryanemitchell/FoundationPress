@@ -1,5 +1,5 @@
  * TODO - if element is window, return only those values.
-Remove all Bacon
+Remove all the Bacon
 
 
 
