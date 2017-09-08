@@ -1,3 +1,7 @@
+NPM INSTALL
+BOWER INSTALL
+NPM START
+
 
 # FoundationPress for Seequs
 

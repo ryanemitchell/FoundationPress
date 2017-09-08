@@ -1,1 +1,2 @@
-style.css merge=ours
+style.css merge=oursnpm
+gulpfile.babel.jsgulp merge=oursnpm
