@@ -53,3 +53,15 @@ require_once( 'library/responsive-images.php' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/class-foundationpress-protocol-relative-theme-assets.php' );
+
+//Defer parsing of Javascript
+require_once ('library/defer-parsing-javascript.php');
+
+//Disable Theme and Plugin Editors
+require_once ('library/disable-theme-plugin-editors.php');
+
+//Excerpt Functions
+require_once ('library/excerpts.php');
+
+//Disable image links
+require_once ('library/disable-image-links.php');
