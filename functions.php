@@ -65,3 +65,10 @@ require_once ('library/excerpts.php');
 
 //Disable image links
 require_once ('library/disable-image-links.php');
+
+//Custom login screen
+require_once( 'library/custom-login.php' );
+
+
+
+
