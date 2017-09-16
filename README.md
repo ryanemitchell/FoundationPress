@@ -170,3 +170,13 @@ Pull requests are highly appreciated. Please follow these guidelines:
 2. Make sure that your code is bug-free and does not introduce new bugs
 3. Create a [pull request](https://help.github.com/articles/creating-a-pull-request)
 4. Verify that all the Travis-CI build checks have passed
+
+
+## Site Setup
+
+Open Settings.scss and run through.
+Additional COlors in colors.scss
+
+Set fonts for All text, body and headers
+
+

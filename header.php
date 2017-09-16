@@ -28,9 +28,12 @@
 	<header class="site-header" role="banner">
 		<div class="site-title-bar title-bar" <?php foundationpress_title_bar_responsive_toggle() ?>>
 			<div class="title-bar-left">
-				<button class="menu-icon" type="button" data-toggle="<?php foundationpress_mobile_menu_id(); ?>"></button>
 				<span class="site-mobile-title title-bar-title">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+				</span>
+				<span class="site-mobile-toggle-menu">
+					Menu
+				<button class="menu-icon" type="button" data-toggle="<?php foundationpress_mobile_menu_id(); ?>"></button>
 				</span>
 			</div>
 		</div>
@@ -47,9 +50,10 @@
 				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
 					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
 				<?php endif; ?>
+
 			</div>
 		</nav>
-		
+
 	</header>
 
 	<section class="container">

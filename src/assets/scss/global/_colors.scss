@@ -1,9 +1,9 @@
-$bandcolor-primary: rgba(0, 130, 197, 1);
-$bandcolor-secondary: rgba(3, 80, 120, 1);
-$bandcolor-primary: rgba(0, 130, 197, 1);
+$brandcolor-primary: rgba(0, 130, 197, 1);
+$brandcolor-secondary: rgba(3, 80, 120, 1);
+$brandcolor-tertiary: rgba(1, 60, 90, 1);
 
-$color-primary-tinted: mix(white, $bandcolor-primary, 10%); // #99473e
-$color-primary-shaded: mix(black, $bandcolor-secondary, 10%); // #7f2d24
+$color-primary-tinted: mix(white, $brandcolor-primary, 10%); // #99473e
+$color-primary-shaded: mix(black, $brandcolor-secondary, 10%); // #7f2d24
 
 
 
