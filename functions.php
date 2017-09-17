@@ -69,6 +69,12 @@ require_once ('library/disable-image-links.php');
 //Custom login screen
 require_once( 'library/custom-login.php' );
 
+//Custom admin themes
+require_once( 'library/custom-admin-themes.php' );
+
+//Custom roles
+require_once( 'library/custom-roles.php' );
+
 
 
 

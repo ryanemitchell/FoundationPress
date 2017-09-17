@@ -31,7 +31,7 @@ var URL = 'http://seequs-foundation.dev';
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
- gulp.series(clean, sass, loginsass, javascript, images, copy));
+ gulp.series(clean, sass, adminsass, javascript, images, copy));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -70,8 +70,8 @@ function sass() {
 }
 
 
-function loginsass() {
-  return gulp.src('src/assets/scss/custom-login-styles.scss')
+function adminsass() {
+  return gulp.src('src/assets/scss/admin.scss')
     .pipe($.sourcemaps.init())
     .pipe($.sass({
       includePaths: PATHS.sass
@@ -158,7 +158,7 @@ function reload(done) {
 function watch() {
   gulp.watch(PATHS.assets, copy);
   gulp.watch('src/assets/scss/**/*.scss').on('all', sass);
-  gulp.watch('src/assets/scss/**/*.scss').on('all', loginsass);
+  gulp.watch('src/assets/scss/**/*.scss').on('all', adminsass);
   gulp.watch('**/*.php').on('all', browser.reload);
   gulp.watch('src/assets/js/**/*.js').on('all', gulp.series(javascript, browser.reload));
   gulp.watch('src/assets/img/**/*').on('all', gulp.series(images, browser.reload));

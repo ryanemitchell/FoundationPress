@@ -3,7 +3,7 @@
 
 //add stylesheet
 function seequs_custom_login() {
-	echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/dist/assets/css/custom-login-styles.css" />';
+	echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/dist/assets/css/admin.css" />';
 }
 add_action('login_head', 'seequs_custom_login');
 

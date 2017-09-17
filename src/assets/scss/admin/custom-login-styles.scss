@@ -7,7 +7,7 @@ $assetPath : "../images";
 }
 
 body.login {
-  background: url(#{$assetPath}/login/background.png) repeat-x fixed 0 0;
+  background: url(#{$assetPath}/login/page-header-back.jpg) repeat-x fixed 0 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -18,38 +18,87 @@ body.login {
 .login h1 a {
   background-image: url(#{$assetPath}/login/logo.png);
   background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #444;
+  height: 53px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.3em;
+  margin: 0 auto 25px;
+  padding: 0;
+  text-decoration: none;
+  width: 156px;
+  text-indent: -9999px;
+  outline: none;
+  overflow: hidden;
+  display: block;
+
 }
+
+.login form {
+  margin-top: 20px;
+  margin-left: 0;
+  padding: 26px 24px 46px;
+  font-weight: 400;
+  overflow: hidden;
+  background: rgba(222, 222, 222, 0.87);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.13);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+  border-radius: 5px;
+}
+
+
+
+
 
 .login label {
   font-size: 12px;
   color: #555555;
 }
 
+
+.login #nav a, .login #backtoblog a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+.login #nav a:hover, .login #backtoblog a:hover, .login h1 a:hover {
+  color: #8dff1a;
+}
+
+
 .login input[type="text"]{
   background-color: #ffffff;
   border-color:#dddddd;
+  font-size: 12px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
   -webkit-border-radius: 4px;
 }
 
 .login input[type="password"]{
   background-color: #ffffff;
   border-color:#dddddd;
+  padding: 10px;
+  font-size: 12px;
   -webkit-border-radius: 4px;
 }
 
 .login .button-primary {
-  width: 120px;
+  //width: 120px;
   float:right;
-  background-color:#17a8e3 !important;
-  background: -webkit-gradient(linear, left top, left bottom, from(#17a8e3), to(#17a8e3));
-  background: -webkit-linear-gradient(top, #17a8e3, #17a8e3);
-  background: -moz-linear-gradient(top, #17a8e3, #17a8e3);
-  background: -ms-linear-gradient(top, #17a8e3, #17a8e3);
-  background: -o-linear-gradient(top, #17a8e3, #17a8e3);
-  background-image: -ms-linear-gradient(top, #17a8e3 0%, #17a8e3 100%);
+  background-color:rgba(130, 195, 67, 1.000) !important;
+
+  //background: linear-gradient(top, rgba(130, 195, 67, 1.000), rgba(130, 195, 67, 1.000));
+
+
+  //background-image: linear-gradient(top, rgba(130, 195, 67, 1.000) 0%, rgba(130, 195, 67, 1.000) 100%);
   color: #ffffff;
   -webkit-border-radius: 4px;
-  border: 1px solid #0d9ed9;
+  border: none;
+  text-shadow: none;
 }
 
 .login .button-primary:hover {
@@ -76,4 +125,14 @@ body.login {
   color: #fff;
   -webkit-border-radius: 4px;
   border: 1px solid #0d9ed9;
+}
+
+
+.login #login_error {
+  border-left-color: #dc3232;
+  background-color: #dc3232;
+  color: #fff;
+  a {
+    color: #ffb9ba;
+  }
 }
