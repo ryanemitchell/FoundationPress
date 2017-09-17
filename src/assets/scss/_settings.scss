@@ -71,15 +71,15 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: rgba(0, 130, 197, 1),
+  primary: #1779ba,
   secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
 );
-$light-gray: rgba(213, 213, 213, 1);
-$medium-gray: rgba(151, 151, 151, 1);
-$dark-gray: rgba(74, 74, 74, 1);
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
@@ -815,11 +815,11 @@ $thumbnail-radius: $global-radius;
 // 53. Title Bar
 // -------------
 
-$titlebar-background: $white;
+$titlebar-background: $dark-nav-color;
 $titlebar-color: $white;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
-$titlebar-icon-color: $black;
+$titlebar-icon-color: $white;
 $titlebar-icon-color-hover: $medium-gray;
 $titlebar-icon-spacing: 0.25rem;
 

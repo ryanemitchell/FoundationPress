@@ -27,7 +27,7 @@ function loadConfig() {
 
 // Enter URL of your local server here
 // Example: 'http://localhost:8888'
-var URL = 'http://vectorimpact.dev/';
+var URL = 'http://seequs-foundation.dev';
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
